@@ -1,0 +1,60 @@
+:root{
+    --var-headings: #000000;
+    --var-intro: #341717;
+    --var-texts: #222;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Freckle Face', cursive;
+}
+
+body{
+    background: url("/images/bg-img.svg");
+    height:100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    color: var(--var-texts);
+    text-align: center;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 7.5rem;
+    text-transform: uppercase;
+    padding-top: 5rem;
+}
+
+p{
+    color: var(--var-intro);
+    text-align:center;
+    font-size: 4rem;
+    font-family: 'Freehand', cursive;
+    font-style: normal;
+    line-height: 8rem;
+    padding: 0 40rem;
+}
+
+a{
+    text-decoration: none;
+    color: var(--var-headings);
+}
+
+.container{
+    position: relative;
+    text-align: center;
+}
+
+.button{
+    width: 30rem;
+    height: auto;
+}
+
+.button-text{
+    font-family: 'Freehand', cursive;
+    position: absolute;
+    top:20%;
+    left:46.5%;
+    font-size: 4.5rem;
+}
