@@ -1,3 +1,5 @@
+/* for globals, root and general elements */
+
 :root{
     --var-headings: #000000;
     --var-intro: #341717;
@@ -26,6 +28,10 @@ h1{
     padding-top: 5rem;
 }
 
+h2{
+    font-size: 3.5rem;
+}
+
 p{
     color: var(--var-intro);
     text-align:center;
@@ -41,6 +47,12 @@ a{
     color: var(--var-headings);
 }
 
+a:hover{
+    cursor:pointer;
+}
+
+/* index.html page */
+
 .container{
     position: relative;
     text-align: center;
@@ -51,10 +63,56 @@ a{
     height: auto;
 }
 
-.button-text{
+.play-button-text{
     font-family: 'Freehand', cursive;
     position: absolute;
     top:20%;
     left:46.5%;
     font-size: 4.5rem;
+}
+
+/* for game.html page */
+
+.button-text{
+    position: absolute;
+    top:20%;
+    left:40%;
+    font-size: 5rem;
+}
+
+.scores{
+    display:flex;
+    justify-content: space-around;
+}
+
+.point-announce{
+    font-family: 'Freckle face', cursive;
+    font-size: 7rem;
+}
+
+.options{
+    display: flex;
+    justify-content: space-around;
+}
+.options-button{
+    position: absolute;
+    top:25%;
+    left:15%;
+    font-size: 5rem;
+}
+
+.container > h2{
+    position: absolute;
+    bottom:65%;
+    left:0%;
+}
+
+.scoreboard{
+    position: relative;
+}
+
+.scoreboard > a{
+    position: absolute;
+    top:50%;
+    left:50;
 }
