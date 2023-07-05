@@ -13,7 +13,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/styles/style.css" />
-    <!-- <script src="script.js" defer></script> -->
+    <script src="/script.js" defer></script>
   </head>
   <body>
     <h1>SCOREBOARD</h1>
@@ -21,26 +21,26 @@
       <div class="container">
         <h2>MACHINE:</h2>
         <a><img src="/images/button-wood.png" class="button" /></a>
-        <a src class="button-text">01</a>
+        <a src class="button-text" id="machineScoreBoard">01</a>
       </div>
       <div class="container">
         <h2>COWBOY:</h2>
         <a><img src="/images/button-wood.png" class="button" /></a>
-        <a src class="button-text">01</a>
+        <a src class="button-text" id="cowboyScoreBoard">01</a>
       </div>
     </div>
-    <p class="point-announce">MACHINE GETS A POINT!</p>
+    <p class="point-announce" id="pointsAnnouncement">MACHINE GETS A POINT!</p>
     <div class="options">
       <div class="container">
-        <a><img src="/images/button-wood.png" class="button" /></a>
+        <a><img src="/images/button-wood.png" class="button" id="rock" /></a>
         <a src class="options-button button-text">ROCK</a>
       </div>
       <div class="container">
-        <a><img src="/images/button-wood.png" class="button" /></a>
+        <a><img src="/images/button-wood.png" class="button" id="paper"/></a>
         <a src class="options-button button-text">PAPER</a>
       </div>
       <div class="container">
-        <a><img src="/images/button-wood.png" class="button" /></a>
+        <a><img src="/images/button-wood.png" class="button" id="scissors"/></a>
         <a src class="options-button button-text">SCISSORS</a>
       </div>
     </div>

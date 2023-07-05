@@ -99,6 +99,7 @@ a:hover{
     top:25%;
     left:15%;
     font-size: 5rem;
+    pointer-events: none;
 }
 
 .container > h2{
